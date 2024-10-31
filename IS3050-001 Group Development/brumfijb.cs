@@ -8,10 +8,15 @@ namespace IS3050_001_Group_Development
 {
     internal class brumfijb
     {
-        public String HappyHalloween;
-         
-        static void Main(string[] args)
-        { System.Console.WriteLine( 
+        
+
+        public void HappyHalloween()
+        {
+            String name = "Jacob Brumfield";
+            String favoriteCandy = "Twix";
+            Console.WriteLine("My name is Jacob and my favorite candy is Twix" + name + favoriteCandy);
+
+        }
     }
     
 }
